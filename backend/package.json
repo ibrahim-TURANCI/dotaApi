@@ -5,6 +5,7 @@
   "main": "index.js",
   "scripts": {
     "start": "node src/app.js",
+    "migrate": "node src/common/migrator.js",
     "dev": "nodemon src/app.js",
     "lint": "eslint ."
   },
